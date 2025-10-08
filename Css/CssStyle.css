@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+    /*border: 1px solid green;*/
+
+}
+
+.Conteiner
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.Header
+{
+    margin: auto;
+    padding: 10px;
+}
+
+.header-button
+{
+    margin: auto;
+    margin-right: 14%;
+    width: 10%;
+    text-align: center;
+    padding: 10px 15px;
+    background: #FF9F6B;
+    border-radius: 5px;
+    font-size: 20px
+}
+.header-button>a
+{
+    text-decoration: none;
+    color: white;
+    font: bold;
+    
+}
+.text-header
+{
+    margin: auto;
+    padding: 10px;
+    margin-left: 14%;
+}
+.navbar
+{
+    display: flex;
+    border-top: 1px solid black;
+}
+.navbar>h2
+{
+    margin: auto;
+    padding: 10px;
+    font-size:xx-large ;
+}
+nav
+{
+    padding: 10px;
+    margin: auto;
+}
+nav>a
+{
+    margin-right: 5px;
+    text-decoration: none;
+    color: #5B5B5B;
+}
+.Image>img
+{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.Info
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    width: 100%; 
+    text-align: center;
+}
+.Info-Glav
+{
+    margin: auto;
+    width: 50%;
+    margin-top: 13px;
+    margin-bottom: 32px;
+    font-size: 30px;
+    
+}
+h1
+{
+    font-size: 50px;
+}
+.button-Glav
+{
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    width: 130px;
+    height: 39px;
+    padding: 10px;
+    background: white;
+}
+.button-Glav>a
+{
+    text-decoration: none;
+    color: black;
+}

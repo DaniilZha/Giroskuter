@@ -4,22 +4,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Segoe UI";
-    /*border: 1px solid green;*/
-
 }
 
 .Conteiner
 {
+    text-align: center;
     width: 100%;
     margin: auto;
-    display: flex;
 }
 .Header
 {
+    display: flex;
     margin: auto;
     padding: 10px;
 }
-
 .header-button
 {
     margin: auto;
@@ -29,13 +27,13 @@
     padding: 10px 15px;
     background: #FF9F6B;
     border-radius: 5px;
-    font-size: 20px
+    font-size: 15px
 }
 .header-button>a
 {
     text-decoration: none;
     color: white;
-    font: bold;
+    font-weight: bold;
     
 }
 .text-header
@@ -57,11 +55,18 @@
 }
 nav
 {
-    padding: 10px;
+    padding: 5px;
     margin: auto;
+}
+nav>a:hover
+{   
+    background: #FF9F6B;
+    border-radius: 20px;
+    color:white;
 }
 nav>a
 {
+    padding: 10px;
     margin-right: 5px;
     text-decoration: none;
     color: #5B5B5B;
@@ -74,6 +79,7 @@ nav>a
 }
 .Info
 {
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -82,6 +88,7 @@ nav>a
     padding: 20px;
     width: 100%; 
     text-align: center;
+
 }
 .Info-Glav
 {
@@ -89,16 +96,18 @@ nav>a
     width: 50%;
     margin-top: 13px;
     margin-bottom: 32px;
-    font-size: 30px;
+    font-size: 25px;
     
 }
 h1
 {
     font-size: 50px;
+    font-weight: lighter;
 }
 .button-Glav
 {
     text-align: center;
+    font-weight: bold;
     border-radius: 10px;
     margin: auto;
     width: 130px;
@@ -111,3 +120,396 @@ h1
     text-decoration: none;
     color: black;
 }
+.Nashi_preimysh
+{
+    margin-top: 100px;
+}
+.Header-nash-prem
+{
+    color: #9B9B9B;
+    display: flex;
+}
+.Nash
+{
+    font-size: x-large;
+    margin-top: 100px;
+    margin-left:100px;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.strel-left
+{
+    margin-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.strel-right
+{
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.Prem
+{
+    display: flex;
+    margin-top: 100px;
+}
+.Garant, .Fast, .Big, .Online
+{
+    font-size: large;
+    margin: auto;
+    text-align: center;
+    margin-right: auto;
+}
+.Garant-img, .Fast-img, .Big-img, .Online-img
+{
+    margin: auto;
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.O-Nac
+{
+    margin-top: 200px;
+    text-align: justify;
+    
+}
+
+.Header-O-Nac
+{
+    color: #9B9B9B;
+    margin-top: 20px;
+    font-size: x-large;
+    margin-bottom: 10px;
+    margin-left: 0;
+    float: left;
+    margin-left: 50px;
+
+}
+.Info-O-Nac1, .Info-O-Nac2
+{
+    width: 90%;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.Info-O-Nac1
+{
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.Info-O-Nac2
+{
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    margin-bottom: 50px;
+}
+.O-Nac-foother
+{
+    width: 100%;
+    background: #FFBF48;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    padding: 45px;
+}
+.O-Nac-foother-Info
+{
+    
+    display: flex;
+    width: 15%;
+    color: white;
+    float: right;
+}
+.Input1
+{
+    width: 15%;
+    margin: auto;
+    margin-left: 40%;
+    margin-right: 23px;
+    
+}
+.Input2
+{
+    width: 15%;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+input
+{
+    border: 1px solid white;
+    background:#FFBF48;
+    padding: 10px;
+    color:white;
+    border-radius: 2px;
+}
+.Sub
+{
+
+    border-radius: 2px;
+    background:white;
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+}
+.Sub>a
+{
+    color:black;
+    text-decoration: none;
+}
+.Ocob-Giro-Header
+{
+    color: #9B9B9B;
+    margin-top: 20px;
+    text-align: left;
+    width: 20%;
+    font-size: x-large;
+    margin-bottom: 150px;
+    margin-left: 100px;
+}
+.MinusiIPlusi
+{
+    display: flex;
+    margin-bottom: 59px;
+}
+.Minus, .Plus1, .Plus2
+{
+
+    text-align: justify;
+}
+.Minus
+{
+    margin-left: 20%;
+    margin-right: 104px;
+}
+.Plus1
+{
+    margin-right: 104px;
+}
+li
+{
+    font-size: x-large;
+    padding: 20px;
+}
+.Ocob-Giro-Info
+{
+    margin-left: 100px;
+    font-size: x-large;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+.Katalog
+{
+    padding-top: 100px;
+    background: #FBFBFB;
+    
+}
+.Header-Katalog
+{
+    display: flex;
+    margin: auto;
+    
+}
+.Katalog-h1
+{
+    color: #9B9B9B;
+    margin-left: 100px;
+    margin-right: 50%;
+    text-align: left;
+    width: 20%;
+    font-size: x-large;
+}
+.Content
+{
+    max-width: max-content;
+    margin:auto;
+    padding: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.Content>a
+{
+    margin:20px 30px;
+}
+.Konsultanti
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Heder-Kons
+{
+    margin-left: 200px;
+    margin-right: 50%;
+    margin-bottom: 100px;
+    text-align: left;
+    width: 20%;
+    font-size: x-large;
+    color: #9B9B9B;
+}
+.Kons   
+{
+
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.Ivan
+{
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    background:#FBFBFB
+}
+.Name-Kons
+{
+    float: left;
+    margin-left: 5px;
+}
+.Ivan>small
+{
+    float: left;
+    font-style:italic;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.Kons-Button
+{
+    float: right;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    background:#FFBF48;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.Kons-Button>a
+{
+    font-style: bold;
+    text-decoration: none;
+    color:white;
+}
+.Ivan>img
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.Info-Kons
+{
+    margin-top: 50px;
+}
+.Model
+{
+    padding: 20px;
+    background: #FBFBFB;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.Model>nav>a
+{
+    color: #9B9B9B;
+    margin: 0 32px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Header_Polez-Info
+{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 50%;
+    margin-bottom: 100px;
+    text-align: left;
+    width: 20%;
+    font-size: xx-large;
+    color: #9B9B9B;
+}
+.Content_Polez-Info
+{
+    margin: 30px;
+    margin-left: 23%;
+    margin-right: 25%;
+    display: flex;
+}
+.Content_Polez
+{
+    padding: 23px;
+}
+footer
+{
+    display: flex;
+    background:#dad9d9;
+    padding: 70px;
+    border-bottom: 40px solid black;
+}
+.Foother-Info
+{   
+    float: left;
+    margin: auto;
+
+}
+.Footer-Info1
+{   
+    width: 80%;
+    padding: 10px;
+    margin-top: 60px;
+    color: #8191A6;
+    
+}
+.Footer-Info2
+{   
+
+    width: 80%;
+    padding: 10px;
+    color: #8191A6;
+    
+}
+.table 
+{
+    float: right;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+
+}
+.table-Info1
+{
+    font-size:large;
+    
+    
+}
+.table-Info
+{
+    
+    width: 300px;
+    font-size:medium;
+    padding: 10px;
+    
+}
+.table-Info>a
+{
+    color: #8191A6;
+    text-decoration: none;
+}
+.Copuright
+{
+    padding: 10px;
+    margin-top: 35px;
+    color: #8191A6;
+}
+
+
+
+

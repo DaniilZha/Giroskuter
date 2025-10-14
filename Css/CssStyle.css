@@ -514,7 +514,7 @@ footer
 {
     .Info {
         padding-top: 250px;
-        height: 800px; /* Restore fixed height for large screens */
+        height: 800px;
     }
     h1 {
         font-size: 50px;
@@ -562,6 +562,7 @@ footer
         margin-bottom: 50px
     }
 }
+
 
 
 

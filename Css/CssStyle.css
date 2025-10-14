@@ -85,7 +85,7 @@ nav>a
 }
 .Info
 {
-    background: url("/img/GlavEkran.png");  /* фоном ставим картинку */
+    background: url("../img/GlavEkran.png");  /* фоном ставим картинку */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -654,4 +654,5 @@ footer
         padding-bottom: 30px;
         text-align: left;
     }
+
 }

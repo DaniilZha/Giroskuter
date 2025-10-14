@@ -25,15 +25,15 @@
     width: 10%;
     text-align: center;
     padding: 10px 15px;
-    background: #FF9F6B;
+    background: #FF9F6B;  /* меняем цвет фона */
     border-radius: 5px;
     font-size: 15px
 }
 .header-button>a
 {
-    text-decoration: none;
+    text-decoration: none;  /* Убираем декорации у текста */
     color: white;
-    font-weight: bold;
+    font-weight: bold;  /* делаем фон жирным */
     
 }
 .text-header
@@ -45,25 +45,31 @@
 .navbar
 {
     display: flex;
-    border-top: 1px solid black;
+    border-top: 1px solid black;  /* граница сверху */
 }
 .navbar>h2
 {
     margin: auto;
     padding: 10px;
-    font-size:xx-large ;
+    font-size:xx-large ;  /* размер шрифта*/
 }
 nav
 {
     padding: 5px;
     margin: auto;
 }
-nav>a:hover
+nav>a:hover  /* при наведении добавляем цвет фона и меняем цвет шрифта */
 {   
     background: #FF9F6B;
     border-radius: 20px;
     color:white;
 }
+
+.table-Info>a:hover 
+{
+    color:white;
+}
+
 nav>a
 {
     padding: 10px;
@@ -79,9 +85,9 @@ nav>a
 }
 .Info
 {
-    background: url("/img/GlavEkran.png");
-    background-repeat: no-repeat; /* Убирает дублирование */
-    background-position: center; /* Центрирует фон (опционально) */
+    background: url("/img/GlavEkran.png");  /* фоном ставим картинку */
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     color: white;
     padding: 20px;
@@ -297,8 +303,7 @@ li
     font-size: x-large;
     padding: 20px;
 }
-.Ocob-Giro-Info
-{
+.Ocob-Giro-Info {
     margin-left: 100px;
     font-size: x-large;
     text-align: justify;
@@ -355,17 +360,17 @@ li
 }
 .Kons   
 {
-
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 100%;
+    display: flex; 
+    margin: auto;   
 }
 .Ivan
 {
-    width: 50%;
-    margin: 20px;
-    padding: 10px;
+    
+    margin:auto;
+    padding: auto;
     background:#FBFBFB
+    
 }
 .Name-Kons
 {
@@ -434,16 +439,19 @@ li
     font-size: xx-large;
     color: #9B9B9B;
 }
-.Content_Polez-Info
-{
-    margin: 30px;
-    margin-left: 23%;
-    margin-right: 25%;
+.Content_Polez-Info {
     display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 100%;        
+    margin: auto;
+    padding: 83px;
 }
+
 .Content_Polez
 {
     padding: 23px;
+    display: flex;
 }
 footer
 {
@@ -559,11 +567,91 @@ footer
     }
     .Ocob-Giro-Header
     {
-        margin-bottom: 50px
+        margin-bottom: 50px;
+    }
+    .Ocob-Giro-Info {
+        margin-left: 60px;
+        margin-right: 20px;
+        font-size: medium;
+        padding-bottom: 30px;
+        text-align: left;
+    }
+        
+    .Minus>ul
+    {
+        font-size: 50px;
+    }
+    .Plus1>ul, .Plus2>ul
+    {
+        font-size: 50px;
+
     }
 }
+@media screen and (min-width: 870px) 
+{
+    .Info {
+        padding-top: 150px;
+        height: 500px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .Nashi_preimysh {
+        margin-top: 80px;
+    }
+    .Nash {
+        margin-top: 80px;
+    }
+    .strel-left, .strel-right {
+        margin-top: 80px;
+    }
+    .Nash {
+        margin-top: 80px;
+    }
+    .strel-left, .strel-right {
+        margin-top: 80px;
+    }
+     .Prem {
+        margin-top: 80px;
+    }
+    .O-Nac {
+        margin-top: 100px;
+    }
+    .Header-O-Nac {
+        margin-left: 30px;
+    }
+    .Info-O-Nac1, .Info-O-Nac2 {
+        width: 50%;
+        margin-top: 80px;
+    }
+    .Info-O-Nac1 {
+        float: left;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .Info-O-Nac2 {
+        float: left;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .Ocob-Giro-Header
+    {
+        margin-bottom: 30px;
+    }
+    .Minus>ul
+    {
+        font-size: 30px;
+    }
+    .Plus1>ul, .Plus2>ul
+    {
+        font-size: 30px;
 
-
-
-
-
+    }
+    .Ocob-Giro-Info {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: medium;
+        padding-bottom: 30px;
+        text-align: left;
+    }
+}
